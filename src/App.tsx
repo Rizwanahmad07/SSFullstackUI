@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from "./components/Layout"
 import "bootstrap/dist/css/bootstrap.min.css";
-import Country from './pages/Country';
+
 import Language from './pages/Language';
 import State from './pages/State';
 import District from './pages/District';
@@ -13,6 +13,7 @@ import ExportCSV from './pages/ExportCSV';
 import CheckBox from './pages/CheckBox';
 import MultiselectDropdown from './pages/MultiselectDropdown';
 import Authentication from './pages/Authentication';
+import Country from './pages/Country';
 
 function App() {
   return (
